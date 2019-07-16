@@ -1,0 +1,24 @@
+{
+  "name": "ultimateai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jshint src tests && mocha tests/spec.js",
+    "start": "node src/index.js"
+  },
+  "author": "Nikola Mandic",
+  "license": "ISC",
+  "devDependencies": {
+    "jshint": "^2.10.2",
+    "jslint": "^0.12.1",
+    "mocha": "^6.1.4"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "clear": "^0.1.0",
+    "figlet": "^1.2.3",
+    "inquirer": "^6.5.0",
+    "lodash": "^4.17.14"
+  }
+}

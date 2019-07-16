@@ -1,0 +1,13 @@
+{
+  "undef": true,
+  "unused": true,
+  "globals": {
+    "_": true,
+    "require": true,
+    "module": true,
+    "beforeEach": true,
+    "console": true,
+    "describe": true,
+    "it": true
+  }
+}
